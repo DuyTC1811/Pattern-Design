@@ -1,5 +1,8 @@
 package adapter;
 
+/**
+ * Apdapter điều phối từng Adaptees
+ */
 public class TranslatorAdapter implements VietnameseTarget {
     private final JapaneseAdaptee japaneseAdaptee;
     private EnglishAdaptee englishAdaptee;
