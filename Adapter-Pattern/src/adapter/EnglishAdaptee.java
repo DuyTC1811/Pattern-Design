@@ -2,16 +2,12 @@ package adapter;
 
 public class EnglishAdaptee {
     /**
-     * nhận messenger và chuyển đổi data
+     * nhận messenger đã được chuyển đổi
      *
-     * @param words messenger đầu vào
+     * @param messenger messenger đầu vào
      */
-    public void receive(String words) {
+    public void receive(String messenger) {
         System.out.println("Retrieving words from Adapter ...");
-        System.out.println(translateEnglish(words));
-    }
-
-    private String translateEnglish(String vietnameseWords) {
-        return vietnameseWords + " Translated To English ! Hello";
+        System.out.println(messenger);
     }
 }
